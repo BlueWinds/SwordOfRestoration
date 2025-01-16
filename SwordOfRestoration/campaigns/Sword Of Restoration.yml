@@ -21,7 +21,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: Coronation
-        forcedDays: 0
+        withinDays: 0
     - video: 1C-coup.bk2
     - event:
         id: sword_1_post_coronation
@@ -74,7 +74,7 @@ nodes:
         id: Sword_3_Axylus
         employer: AuriganRestoration
         target: AuriganPirates
-        forcedDays: 0
+        withinDays: 0
         onFailGoto: CaptureTheScheria
     - video: 3-argo.bk2
     - conversation:
@@ -113,7 +113,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         postContractEvent: sword_4_postcontract
-        forcedDays: 7
+        withinDays: 7
         onFailGoto: LiberationOfWeldry
     - conversation:
         id: StoryTime4a-Restoration
@@ -155,7 +155,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: LiberationOfPanzyr
-        forcedDays: 0
+        withinDays: 0
     - conversation:
         id: StoryTime4b-Anomaly
         header: ANOMALY
@@ -181,7 +181,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: SmithonAttack
-        forcedDays: 7
+        withinDays: 7
     - conversation:
         id: StoryTime5-BlackBox
         header: BLACK BOX
@@ -258,7 +258,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: RaisingTheDead
-        forcedDays: 0
+        withinDays: 0
         postContractEvent: sword_6_postcontract
     - conversation:
         id: StoryTime6-DeadInSpace
@@ -309,7 +309,7 @@ nodes:
         employer: AuriganRestoration
         target: TaurianConcordat
         onFailGoto: SmithonDefense
-        forcedDays: 4
+        withinDays: 4
     - conversation:
         id: StoryTime6b-PathForward
         header: THE PATH FORWARD
@@ -349,7 +349,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: DefendItrom
-        forcedDays: 3
+        withinDays: 3
     - conversation:
         id: StoryTime6c-Departure
         header: DEPARTURE
@@ -405,7 +405,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: GunboatDiplomacy
-        forcedDays: 0
+        withinDays: 0
         postContractEvent: sword_7_postcontract
     - conversation:
         id: StoryTime7-InsurancePolicy
@@ -466,7 +466,7 @@ nodes:
         employer: AuriganRestoration
         target: AuriganDirectorate
         onFailGoto: PointOfNoReturn
-        forcedDays: 0
+        withinDays: 0
         postContractEvent: sword_8_postcontract
     - conversation:
         id: StoryTime8-TheChallange
